@@ -1,8 +1,8 @@
 import React from 'react';
 import { useSelector } from 'react-redux';
 import Layout from '../components/layout/Layout';
-import CartItem from '../components/cart/CartItem';
-import CartSummary from '../components/cart/CartSummary';
+import CartItem from '../components/Cart/CartItem';
+import CartSummary from '../components/Cart/CartSummary';
 import { clearCart } from '../features/cart/cartSlice';
 import { useDispatch } from 'react-redux';
 

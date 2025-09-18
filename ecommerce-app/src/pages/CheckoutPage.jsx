@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { useSelector } from 'react-redux';
 import { Link } from 'react-router-dom';
 import Layout from '../components/layout/Layout';
-import CartSummary from '../components/cart/CartSummary';
+import CartSummary from '../components/Cart/CartSummary';
 import Input from '../components/ui/Input';
 import Button from '../components/ui/Button';
 
